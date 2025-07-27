@@ -47,3 +47,4 @@ config/build.log
 icons/*
 !icons/
 !icons/#.#ICONS.md
+renderer/static/favicon.png

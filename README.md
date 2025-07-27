@@ -1,26 +1,35 @@
 # Tauri GUI
 
-## How to use
+## How to Use
 
-Use the `__mgr__.py` script to manage the project.
+On first run, you must go to `https://www.favicon.io/` and follow the instructions in the `icons/` folder.
+
+Then, you need to install the dependencies (colorama):
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Finally, use the `__mgr__.py` script to manage the project.
 
 Run the following commands in the terminal:
+
 ```bash
 # If something freezes, 'Ctrl+C' and try again. It will work.
-cd tauri-gui
+cd tauri_template # or whatever you rename the repo as the project name is...
 # init project
 python __mgr__.py -i
 # print file tree
 python __mgr__.py -t
-# clean build artifacts
-python __mgr__.py -c
-# clean dependencies
-python __mgr__.py -f
 # start dev server
 python __mgr__.py -d
+# fix dependencies
+python __mgr__.py -f
+# clean build artifacts
+python __mgr__.py -c
 ```
 
-## File tree
+## File Tree
 
 ```
 {
