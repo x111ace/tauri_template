@@ -1,0 +1,15 @@
+{
+  "extends": "./.svelte-kit/tsconfig.json",
+  "compilerOptions": {},
+  "references": [
+    { "path": "./config/tsconfig.main.json" }
+  ],
+  "include": [
+    "src/**/*.d.ts",
+    "renderer/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules/**",
+    ".svelte-kit/**"
+  ]
+} 

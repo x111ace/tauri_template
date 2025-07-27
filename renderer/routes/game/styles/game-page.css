@@ -1,0 +1,15 @@
+/* @electron-gui/src/renderer/static/styles/game-page.css */
+
+.centered-box {
+    background-color: #f0f0f0; /* Fully opaque background for the box */
+    border: 1px solid #ccc; /* Fully opaque border */
+    padding: 20px 40px; /* Some padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle, translucent shadow for depth */
+    text-align: center; /* Center text inside the box */
+}
+
+.hello-text {
+    font-size: 17pt; /* The specified size */
+    color: #333; /* Darker text for readability */
+    margin: 0; /* Remove default paragraph margin */
+} 

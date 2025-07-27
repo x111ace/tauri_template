@@ -1,0 +1,34 @@
+/* @electron-gui/src/renderer/static/styles/entry-page.css */
+
+/* Styling for the entry page container */
+.entry-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.entry-page-container h1 {
+    font-size: 24pt;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.centered-button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18pt;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: inherit; /* This will make it use the font from the body */
+}
+
+.centered-button:hover {
+    background-color: #0056b3;
+} 

@@ -1,0 +1,62 @@
+{
+  "$schema": "./node_modules/@tauri-apps/cli/schema.json",
+  "build": {
+    "beforeDevCommand": "npm run svelte:dev",
+    "devPath": "http://localhost:5173",
+    "distDir": "./build"
+  },
+  "package": {
+    "productName": "svelte-tauri-app",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/icon.png",
+        "icons/favicon.ico"
+      ],
+      "identifier": "com.coder.svelte.tauri",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 666,
+        "resizable": true,
+        "title": "Svelte Tauri App",
+        "width": 999
+      }
+    ]
+  }
+} 

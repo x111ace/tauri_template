@@ -1,0 +1,19 @@
+/* @electron-gui/src/renderer/static/styles/main.css */
+
+@font-face {
+    font-family: 'aattackgraffiti'; /* The name you'll use in your CSS */
+    src: url('/fonts/aattackgraffiti/aattackgraffiti.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* engineering: Styling for the main window canvas */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Make body take full viewport height */
+    width: 100vw; /* Make body take full viewport width */
+    overflow: hidden; /* Prevent default body scrollbars */
+    background: rgba(255, 255, 255, 0.0); /* 60% opaque white for the window's main content area */
+    font-family: 'aattackgraffiti', 'Consolas', monospace, sans-serif; /* Set aattackgraffiti as primary, fallback to Consolas, then monospace, then sans-serif */
+} 
